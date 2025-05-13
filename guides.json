@@ -1,0 +1,46 @@
+{
+  "guides": [
+    {
+      "hints": [
+        {
+          "title": "Loading ResNet-18",
+          "body": "- Load the `resnet18` model from `torchvision.models`.\n- Specify the `weights` parameter to pre-trained weights using `models.ResNet18_Weights.DEFAULT`.\n- Iterate over all parameters of the network and set their `.requires_grad` property to `False`."
+        },
+        {
+          "title": "Adjusting the final layer",
+          "body": "- Change the final layer using `nn.Linear()` object with appropriate number of input and output features. \n- (Optional) To check the required number of input features, you can use the `.in_features` property of the existing final layer."
+        }
+      ],
+      "title": "Load and adjust the ResNet-18 model",
+      "body": "Start by loading the architecture and the pre-trained parameters of a ResNet-18 model. Freeze their gradients and change the final layer for binary classification."
+    },
+    {
+      "hints": [
+        {
+          "title": "Loop over inputs and labels",
+          "body": "- Write a for-loop that iterates over training data in batches and:\n\t1. calculates model outputs,\n    2. calculates the loss by comparing the outputs with the original labels,\n    3. updates the model parameters by propagating the loss backwards."
+        }
+      ],
+      "title": "Write the training loop",
+      "body": "Write a training loop for fine-tuning your ResNet-18 model using appropriate loss function and the provided training data."
+    },
+    {
+      "hints": [
+        {
+          "title": "Define a suitable loss criterion",
+          "body": "- Since this is a binary classification problem, the `torch.nn.BCEWithLogitsLoss()` is a suitable loss criterion."
+        },
+        {
+          "title": "Define a suitable optimizer",
+          "body": "- The `torch.optim.Adam()` with learning rate of 0.01 is usually a good choice."
+        },
+        {
+          "title": "Evaluate the model",
+          "body": "- Run the provided evaluation code."
+        }
+      ],
+      "title": "Train and evaluate your model",
+      "body": "Run the training loop for **3 epochs** updating only the parameters of your network meant for fine-tuning. Then calculate the accuracy and F1-score on the test set."
+    }
+  ]
+}

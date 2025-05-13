@@ -1,0 +1,64 @@
+{
+  "resources": [
+    {
+      "type": "lesson",
+      "url": "https://campus.datacamp.com/courses/deep-learning-for-images-with-pytorch/image-classification-with-cnns?ex=9",
+      "title": "Working with pre-trained vision models"
+    },
+    {
+      "title": "Image classification with neural networks",
+      "type": "slides",
+      "url": "https://campus.datacamp.com/pdf/web/viewer.html?file=https://projector-video-pdf-converter.datacamp.com/32718/chapter1.pdf"
+    },
+    {
+      "url": "https://www.datacamp.com/tutorial/sam2-fine-tuning",
+      "type": "blog",
+      "title": "Fine-tuning a foundational vision model"
+    },
+    {
+      "url": "https://campus.datacamp.com/courses/introduction-to-deep-learning-with-pytorch/neural-network-architecture-and-hyperparameters?ex=11",
+      "type": "lesson",
+      "title": "Layer initialization and transfer learning"
+    },
+    {
+      "url": "https://campus.datacamp.com/pdf/web/viewer.html?file=https://projector-video-pdf-converter.datacamp.com/30891/chapter3.pdf#page=25",
+      "type": "slides",
+      "title": "Transfer learning and fine-tuning"
+    },
+    {
+      "title": "Handling images with PyTorch",
+      "url": "https://campus.datacamp.com/courses/intermediate-deep-learning-with-pytorch/images-convolutional-neural-networks?ex=1",
+      "type": "lesson"
+    },
+    {
+      "url": "https://campus.datacamp.com/pdf/web/viewer.html?file=https://projector-video-pdf-converter.datacamp.com/32289/chapter2.pdf#page=40",
+      "type": "slides",
+      "title": "Torchmetrics F1-score"
+    },
+    {
+      "type": "cheatsheet",
+      "url": "https://www.datacamp.com/cheat-sheet/deep-learning-with-py-torch",
+      "title": "Deep learning with PyTorch cheatsheet"
+    },
+    {
+      "type": "webinar",
+      "url": "https://www.datacamp.com/code-along/sloth-or-pastry-using-pytorch-and-deep-learning-for-image-classification",
+      "title": "PyTorch webinar: image classification"
+    },
+    {
+      "url": "https://www.datacamp.com/tutorial/investigating-tensors-pytorch",
+      "type": "tutorial",
+      "title": "PyTorch: Investigating tensors"
+    },
+    {
+      "title": "Printing floats",
+      "url": "https://campus.datacamp.com/courses/data-types-in-python/numeric-data-types-booleans-and-sets?ex=3#:~:text=For%20example%2C%20if%20we%20wanted,four%20decimal%20places%20of%20precision.",
+      "type": "tutorial"
+    },
+    {
+      "title": "How to Round to 2 Decimal Places in Python",
+      "type": "blog",
+      "url": "https://www.datacamp.com/tutorial/python-round-to-two-decimal-places"
+    }
+  ]
+}

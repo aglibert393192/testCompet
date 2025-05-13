@@ -1,0 +1,1 @@
+Accurate and timely diagnosis of pneumonia is essential for effective treatment and patient care. By leveraging deep learning in PyTorch, you will fine-tune a pre-trained convolutional network to classify X-ray images, distinguishing between healthy individuals and those with pneumonia. 

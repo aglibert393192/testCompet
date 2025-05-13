@@ -1,0 +1,30 @@
+{
+  "collaborators": [15410570],
+  "datasets": [],
+  "description": "Detect pneumonia on X-ray images by fine-tuning a pre-trained CNN.",
+  "illustration": "Detect pneumonia on X-ray images by fine-tuning a pre-trained CNN.",
+  "images": [],
+  "instructors": [6639396],
+  "is_certification": false,
+  "is_guided": true,
+  "language": "python",
+  "paid": true,
+  "prerequisites": [32718],
+  "runtime_config": "",
+  "tasks": [
+    {
+      "key": "key1",
+      "number": 1,
+      "sample_code": "print('hello world')",
+      "title": "Task 1",
+      "context": "Not empty"
+    }
+  ],
+  "technology_id": 27,
+  "time_needed": "1 hour",
+  "title": "Classifying X-Ray Images using PyTorch",
+  "type": "workspace",
+  "workspace_template_key": "fake",
+  "workspace_source": "storage",
+  "xp": 1500
+}
