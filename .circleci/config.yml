@@ -1,0 +1,11 @@
+version: 2.1
+
+orbs:
+  projects-build: datacamp/projects-build@volatile
+
+workflows:
+  build:
+    jobs:
+      - projects-build/validate-and-deploy:
+          context: org-global
+
